@@ -1,0 +1,13 @@
+.row{
+    padding:20px;
+}
+div{
+background:#a1b5cb;
+}
+h1,h3 {
+display:inline;
+}
+#nombre{
+    font-weight:bold;
+    text-align:left
+    }
