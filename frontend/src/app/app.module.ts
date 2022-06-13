@@ -20,6 +20,10 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HysComponent } from './COMPONENTES/hys/hys.component';
 import { ProyectoComponent } from './COMPONENTES/proyecto/proyecto.component';
 import { FooterComponent } from './COMPONENTES/footer/footer.component';
+import { PorfolioComponent } from './COMPONENTES/porfolio/porfolio.component';
+import{ReactiveFormsModule}from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +36,8 @@ import { FooterComponent } from './COMPONENTES/footer/footer.component';
     IniciarSesionComponent,
     HysComponent,
     ProyectoComponent,
-    FooterComponent
+    FooterComponent,
+    PorfolioComponent
   ],
 
   imports: [
@@ -40,8 +45,9 @@ import { FooterComponent } from './COMPONENTES/footer/footer.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     FormsModule,
-    NgCircleProgressModule.forRoot({})
-    
+    NgCircleProgressModule.forRoot({}),
+    ReactiveFormsModule,
+    HttpClientModule
   ],
 
   providers: [],

@@ -3,8 +3,7 @@
     <div class="col-lg-1">
         <div class="col-lg-11"> 
             <ul>
-		    <li><h1>Estudio 1</h1>-<h3>(2021-2022)</h3></li>                           <p>Argentina Programa
-                2da etapa:Desarrollo Web Full Stak</p> 
+		    <li><h1>Estudio 1</h1>-<h3>(2021-2022)</h3></li>                           <p></p> 
 	    </ul>                             
 	    <ul>                                                               <li><h1>Estudio 2</h1>-<h3>(2021)</h3></li>      <p>Argentina Programa 1ra etapa:Fundamentos de la Programacion</p>                                     
 	    </ul>                    
@@ -12,5 +11,22 @@
 		    <li><h1>Estudio 3</h1>-<h3>(2005)</h3></li> <p>Ingeniero Industrial - UTN Cordoba 
     </p>
 	    </ul>
+	    <table>
+	    <tbody>
+		    <thead>
+			    <th>titulo</th>
+		    </thead>		  <tbody>  
+		<tr *ngFor="let educacion of lista">
+			<td>
+				{{educacion.descEdu}}
+			
+			</td>
+		</tr>
+		
+	    </tbody>
+	    </table>
     </div>
  </div>
+
+ 
+

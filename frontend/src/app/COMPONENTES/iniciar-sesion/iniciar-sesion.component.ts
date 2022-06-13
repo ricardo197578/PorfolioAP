@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {FormBuilder,FormGroup,Validators} from '@angular/forms';
 
 @Component({
   selector: 'app-iniciar-sesion',
@@ -7,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IniciarSesionComponent implements OnInit {
 
-  constructor() { }
+	
+  constructor(private formBuilder:FormBuilder) { }
 
   ngOnInit(): void {
   }
