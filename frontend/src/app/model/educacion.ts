@@ -1,5 +1,5 @@
 export interface Educacion{
-        idEdu:number;
+        idEdu:string;
         tituloEdu: string;
 	fechaEdu: number;
         descEdu:string;
